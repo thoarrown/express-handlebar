@@ -1,0 +1,63 @@
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+  font-size: 10vh;
+}
+.header-zeus {
+  --z-font: "Nunito Sans", sans-serif;
+  --z-text: #1a1a1a;
+  --z-text-light: #999;
+  --z-primary: #fcc200;
+  --z-gutter: 2rem;
+  --z-container: 1170px;
+  --z-details-container: 64;
+  --container-blog: var(--z-details-container);
+  --font: var(--z-font);
+  padding-bottom: 5rem;
+  background-color: white;
+  *:not(i) {
+    font-family: var(--z-font);
+  }
+  .container {
+    max-width: var(--z-container);
+    padding-left: var(--z-gutter);
+    padding-right: var(--z-gutter);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .feature {
+    &__item {
+      display: block;
+      color: var(--z-text);
+    }
+    &__image {
+      height: 18rem;
+      width: 100%;
+      object-fit: cover;
+    }
+    &__title {
+      font-size: 18px;
+      margin-top: 3rem;
+    }
+  }
+  .load-more {
+    display: block;
+    height: 3.6rem;
+    width: max-content;
+    margin: 4.5rem auto 0;
+    padding: 0 15px;
+    background-color: transparent;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    &:hover {
+      border-color: #ccc;
+    }
+  }
+}

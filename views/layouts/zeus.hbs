@@ -1,0 +1,60 @@
+<html lang="en">
+
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    {{> header}}
+</head>
+
+<body>
+    <header class="header header-zeus">
+        <div class="container header__container">
+            <a href="/" class="logo">
+                <img src="https://static.kt.city/cjz51nw3l87ek09194rtuucdb/thekhuong-1588903919916.png" alt=""
+                    class="logo__image" />
+            </a>
+            <nav class="">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">
+                            Trang chủ
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">
+                            Facebook
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">
+                            Một blog khác
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">
+                            Mua theme
+                        </a>
+                    </li>
+                    <li class="menu__item hidden-pc">
+                        <a href="#" class="menu__link menu__link--login">
+                            Đăng nhập
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="/login" class="login">Đăng nhập</a>
+        </div>
+    </header>
+
+    <div class="container-fluid site-wrapper">
+        <div class="row">
+            {{{ body }}}
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

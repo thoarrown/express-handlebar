@@ -1,0 +1,6 @@
+{
+  "host": "http://localhost:5000",
+  "cdnURL": "https://cdn.kt.city",
+  "debugHandlebars": false,
+  "endpoint": "http://localhost:8888/api"
+}
